@@ -1,10 +1,19 @@
 package Nhom13;
-
+import java.util.Scanner;
 public class nhom13 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.print("Sinh");
+	class DienTichChuViHT {
+	    public static double tinhDienTich(double r) {
+	        return r * r * 3.14;
+	    }
+	    public static double tinhChuVi(double r){
+	        return r * 2 * 3.14;
+	    }
+	    public static void main(String[] args) {
+	        double r;
+	        Scanner scanner = new Scanner(System.in);
+	        System.out.println("Nhập bán kính hình tròn: ");
+	        r = scanner.nextDouble();
+	        System.out.println("Diện tích hình tròn là: " + tinhDienTich(r));
 	}
-
+	}
 }
