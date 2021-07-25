@@ -14,6 +14,8 @@ public class nhom13 {
 	        System.out.println("Nhập bán kính hình tròn: ");
 	        r = scanner.nextDouble();
 	        System.out.println("Diện tích hình tròn là: " + tinhDienTich(r));
+	        System.out.println("Chu vi hinh tron la: " + tinhChuVi(r));
+	        System.out.println("Update bởi thành viên Trần Quốc Tuấn");
 	}
 	}
 }
