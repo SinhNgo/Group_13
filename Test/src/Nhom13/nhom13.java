@@ -17,7 +17,7 @@ public class nhom13 {
 	        System.out.println("Chu vi hinh tron la: " + tinhChuVi(r));
 	        System.out.println("---------------------------------------");
 	        System.out.println("Update bởi thành viên Trần Quốc Tuấn!");
-	        System.out.println("Update by Huỳnh Văn Khánh");
+	        System.out.println("Update by Huỳnh Văn Khánh 2");
 	}
 	}
 }

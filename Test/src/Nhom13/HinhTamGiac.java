@@ -13,12 +13,12 @@ public class HinhTamGiac {
         }while(canhA<=0);
         do {
             System.out.println("Nhap do dai canh thu hai: ");
-            canhA = scn.nextDouble();
-        }while(canhA<=0);
+            canhB = scn.nextDouble();
+        }while(canhB<=0);
         do {
             System.out.println("Nhap do dai canh thu ba: ");
-            canhA = scn.nextDouble();
-        }while(canhA<=0);    
+            canhC = scn.nextDouble();
+        }while(canhC<=0);    
     }
 	public double tinhChuVi(double a, double b, double c) {
 		 return a + b + c;
@@ -30,9 +30,9 @@ public class HinhTamGiac {
 	public static void main(String[] args) {
 		HinhTamGiac htg = new HinhTamGiac();
 		htg.nhap();
+		System.out.println("Chu vi cua tam giac: " +  htg.canhA + htg.canhB + htg.canhC);
 		System.out.println("Chu vi cua tam giac: " +  htg.tinhChuVi(htg.canhA, htg.canhB, htg.canhC));
 		System.out.println("Dien tich cua tam giac: " + htg.tinhDienTich(htg.canhA, htg.canhB, htg.canhC));
-		
-		
+		System.out.println("Update lan 2");	
 	}
 }
