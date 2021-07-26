@@ -2,13 +2,13 @@ package Nhom13;
 import java.util.Scanner;
 public class nhom13 {
 	class DienTichChuViHT {
-	    public static double tinhDienTich(double r) {
+	    public double tinhDienTich(double r) {
 	        return r * r * 3.14;
 	    }
-	    public static double tinhChuVi(double r){
+	    public  double tinhChuVi(double r){
 	        return r * 2 * 3.14;
 	    }
-	    public static void main(String[] args) {
+	    public void main(String[] args) {
 	        double r;
 	        Scanner scanner = new Scanner(System.in);
 	        System.out.println("Nhập bán kính hình tròn: ");
@@ -16,7 +16,8 @@ public class nhom13 {
 	        System.out.println("Diện tích hình tròn là: " + tinhDienTich(r));
 	        System.out.println("Chu vi hinh tron la: " + tinhChuVi(r));
 	        System.out.println("---------------------------------------");
-	        System.out.println("Update bởi thành viên Trần Quốc Tuấn!");	      
+	        System.out.println("Update bởi thành viên Trần Quốc Tuấn!");
+	        System.out.println("Update by Huỳnh Văn Khánh");
 	}
 	}
 }
